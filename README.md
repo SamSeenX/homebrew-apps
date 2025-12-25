@@ -6,15 +6,15 @@
 
 **Enhanced Disk Space Analyzer for macOS**
 
-[![Release](https://img.shields.io/github/v/release/MrSamSeen/DiskMan?style=flat-square&color=4ade80)](https://github.com/MrSamSeen/DiskMan/releases/latest)
+[![Release](https://img.shields.io/github/v/release/SamSeenX/DiskMan?style=flat-square&color=4ade80)](https://github.com/SamSeenX/DiskMan/releases/latest)
 [![Homebrew](https://img.shields.io/badge/homebrew-tap-orange?style=flat-square&logo=homebrew)](https://brew.sh)
-[![License](https://img.shields.io/github/license/MrSamSeen/DiskMan?style=flat-square&color=blue)](https://github.com/MrSamSeen/DiskMan/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/SamSeenX/DiskMan?style=flat-square&color=blue)](https://github.com/SamSeenX/DiskMan/blob/main/LICENSE)
 
 </div>
 
 ---
 
-This is the official Homebrew tap for [DiskMan](https://github.com/MrSamSeen/DiskMan), a powerful CLI and Web-based disk usage analyzer for macOS.
+This is the official Homebrew tap for [DiskMan](https://github.com/SamSeenX/DiskMan), a powerful CLI and Web-based disk usage analyzer for macOS.
 
 ## 🚀 Installation
 
@@ -56,5 +56,5 @@ brew uninstall diskman
 ---
 
 <div align="center">
-Made with ❤️ by <a href="https://github.com/MrSamSeen">SamSeen</a>
+Made with ❤️ by <a href="https://github.com/SamSeenX">SamSeen</a>
 </div>
