@@ -21,7 +21,7 @@ This is the official Homebrew tap for [DiskMan](https://github.com/MrSamSeen/Dis
 The easiest way to install DiskMan is via this tap:
 
 ```bash
-brew install mrsamseen/diskman/diskman
+brew install SamSeenX/diskman/diskman
 ```
 
 ## 🔄 Updating
