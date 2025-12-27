@@ -4,7 +4,7 @@ class Diskman < Formula
   desc "DiskMan V3 - Enhanced Disk Space Analyzer"
   homepage "https://github.com/SamSeenX/DiskMan"
   url "https://github.com/SamSeenX/DiskMan/archive/refs/tags/v3.0.6.tar.gz"
-  sha256 "2669e58c0eb858d0101b425f1118abd333b1fe53975e8f6fa85fe148556e90fc"
+  sha256 "e7dfb1940a217ae5c2cc6010149806c05eee4d5d85c42026c06b1c407c145700"
   license "MIT"
 
   depends_on "python@3.11"
@@ -12,17 +12,17 @@ class Diskman < Formula
   # Dependencies
   resource "colorama" do
     url "https://github.com/SamSeenX/DiskMan/archive/refs/tags/v3.0.6.tar.gz"
-    sha256 "2669e58c0eb858d0101b425f1118abd333b1fe53975e8f6fa85fe148556e90fc"
+    sha256 "e7dfb1940a217ae5c2cc6010149806c05eee4d5d85c42026c06b1c407c145700"
   end
 
   resource "humanize" do
     url "https://github.com/SamSeenX/DiskMan/archive/refs/tags/v3.0.6.tar.gz"
-    sha256 "2669e58c0eb858d0101b425f1118abd333b1fe53975e8f6fa85fe148556e90fc"
+    sha256 "e7dfb1940a217ae5c2cc6010149806c05eee4d5d85c42026c06b1c407c145700"
   end
 
   resource "send2trash" do
     url "https://github.com/SamSeenX/DiskMan/archive/refs/tags/v3.0.6.tar.gz"
-    sha256 "2669e58c0eb858d0101b425f1118abd333b1fe53975e8f6fa85fe148556e90fc"
+    sha256 "e7dfb1940a217ae5c2cc6010149806c05eee4d5d85c42026c06b1c407c145700"
   end
 
   def install
