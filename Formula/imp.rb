@@ -8,6 +8,11 @@ class Imp < Formula
   license "MIT"
 
   depends_on "python@3.11"
+  depends_on "jpeg"
+  depends_on "libtiff"
+  depends_on "little-cms2"
+  depends_on "webp"
+  depends_on "zlib"
 
   resource "pillow" do
     url "https://files.pythonhosted.org/packages/f3/af/c097e544e7bd278333db77933e535098c259609c4eb3b85381109602fb5b/pillow-11.1.0.tar.gz"
