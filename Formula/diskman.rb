@@ -3,8 +3,8 @@ class Diskman < Formula
 
   desc "DiskMan V3 - Enhanced Disk Space Analyzer"
   homepage "https://github.com/SamSeenX/DiskMan"
-  url "https://github.com/SamSeenX/DiskMan/archive/refs/tags/v4.2.2-curses.tar.gz"
-  sha256 "16e5f0e5bc90cdfce5595970f6057cad5e0b98ed0ee149e35c0f13dfc95562a6"
+  url "https://github.com/SamSeenX/DiskMan/archive/refs/tags/v4.2.3-curses.tar.gz"
+  sha256 "9f073c01522def7a6e63641d8b17f30dfd38dc6b3fee96088f723e7052e84155"
   license "MIT"
 
   depends_on "python@3.11"
