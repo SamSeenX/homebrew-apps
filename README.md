@@ -13,6 +13,7 @@ This repository allows macOS users to easily install and update my tools using t
 |------|-------------|-----------------|
 | **📦 DiskMan** | Enhanced Disk Space Analyzer | `brew install SamSeenX/apps/diskman` |
 | **🖼️ IMP** | Image Optimizer CLI Tool | `brew install SamSeenX/apps/imp` |
+| **🤖 TermDroid** | Android Terminal Cockpit & Control Center | `brew install SamSeenX/apps/termdroid` |
 
 ## 🚀 Quick Start
 
@@ -27,6 +28,7 @@ brew tap SamSeenX/apps
 # Install tools
 brew install diskman
 brew install imp
+brew install termdroid
 ```
 
 Or install directly in one line:
@@ -34,6 +36,7 @@ Or install directly in one line:
 ```bash
 brew install SamSeenX/apps/diskman
 brew install SamSeenX/apps/imp
+brew install SamSeenX/apps/termdroid
 ```
 
 ### Updating
@@ -42,7 +45,7 @@ To update installed tools:
 
 ```bash
 brew update
-brew upgrade diskman imp
+brew upgrade diskman imp termdroid
 ```
 
 ## 📖 Documentation
@@ -57,7 +60,8 @@ A "tap" is a third-party repository for Homebrew that extends the list of availa
 homebrew-apps/
 ├── Formula/          # Homebrew formulae
 │   ├── diskman.rb    # DiskMan formula
-│   └── imp.rb        # IMP Image Optimizer formula
+│   ├── imp.rb        # IMP Image Optimizer formula
+│   └── termdroid.rb  # TermDroid formula
 └── README.md
 ```
 
