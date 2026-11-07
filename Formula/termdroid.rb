@@ -1,15 +1,15 @@
 class Termdroid < Formula
   desc "Terminal cockpit for Android: mirroring, storage, telemetry, and input bridge"
   homepage "https://github.com/SamSeenX/TermDroid"
-  version "0.7.2"
+  version "0.8.0"
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/SamSeenX/TermDroid/releases/download/v0.7.2/termdroid-v0.7.2-darwin-arm64.tar.gz"
-    sha256 "c6c54e0b8a5c479024811bbd134a3f8d3ab3a3cbdf08171d060b4f5a55d80df3"
+    url "https://github.com/SamSeenX/TermDroid/releases/download/v0.8.0/termdroid-v0.8.0-darwin-arm64.tar.gz"
+    sha256 "97f4a83f7df923ad696e0d283ace860ec2be4ef716282ce39f2181c034a81746"
   else
-    url "https://github.com/SamSeenX/TermDroid/releases/download/v0.7.2/termdroid-v0.7.2-darwin-amd64.tar.gz"
-    sha256 "688a59fcdfb7806422462bd48cbf3cad998acf86d729ccb4f6ae5ee7456c34c4"
+    url "https://github.com/SamSeenX/TermDroid/releases/download/v0.8.0/termdroid-v0.8.0-darwin-amd64.tar.gz"
+    sha256 "9f866a4b5544464a80219ea1aa6c6aab04718890903bd66783246e849db8769d"
   end
 
   depends_on "android-platform-tools"
