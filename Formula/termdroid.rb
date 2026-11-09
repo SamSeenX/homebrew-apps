@@ -6,10 +6,10 @@ class Termdroid < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/SamSeenX/TermDroid/releases/download/v0.8.2/termdroid-v0.8.2-darwin-arm64.tar.gz"
-    sha256 "758ab1115c3ba59a8d3121ac6a1a8c9b319e7a83d376ca7eb04085e330ad3ca1"
+    sha256 "758ab1115c3ba59a8d3121acf1d23e23ee68ef3868844f094b1880f9d4e480e6"
   else
     url "https://github.com/SamSeenX/TermDroid/releases/download/v0.8.2/termdroid-v0.8.2-darwin-amd64.tar.gz"
-    sha256 "45c6b7531183a8e835af051950d99216cf4c43141f92e4a6405ce781b0ff4ea1"
+    sha256 "45c6b7531183a8e835af05190b2c92ba007c5faa27223a66f5f5100156dba5d2"
   end
 
   depends_on "scrcpy"
