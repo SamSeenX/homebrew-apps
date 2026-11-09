@@ -12,7 +12,6 @@ class Termdroid < Formula
     sha256 "45c6b7531183a8e835af051950d99216cf4c43141f92e4a6405ce781b0ff4ea1"
   end
 
-  depends_on "android-platform-tools"
   depends_on "scrcpy"
 
   def install
@@ -28,6 +27,11 @@ class Termdroid < Formula
       ----------------------------------------------------------------------
       Android Control Cockpit Installed Successfully!
       ----------------------------------------------------------------------
+
+      At runtime, adb must be accessible from your PATH.
+      If adb is not installed, you can install it via Homebrew Cask:
+
+        brew install --cask android-platform-tools
 
       To run TermDroid, connect your Android device and run:
 
